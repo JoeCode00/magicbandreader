@@ -1,4 +1,9 @@
-#include <Adafruit_NeoPixel.h>
+#include <Adafruit_NeoPixel.h> 
+//Windows:
+//https://downloads.arduino.cc/arduino-cli/arduino-cli_latest_Windows_64bit.msi
+//cmd:
+//set ARDUINO_LIBRARY_ENABLE_UNSAFE_INSTALL=true
+//arduino-cli lib install --git-url https://github.com/adafruit/Adafruit_NeoPixel
 
 #ifdef __AVR__
  #include <avr/power.h> // Required for 16 MHz Adafruit Trinket
